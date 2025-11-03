@@ -51,13 +51,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[14px] sm:text-[17px] max-w-3xl sm:leading-[30px] leading-1"
       >
-       <p> I am Sayyed Rehan, a passionate Java Full Stack Developer with a strong command over both front-end and back-end technologies. My journey into the world of software development began during my academic years at Sant Gadge Baba Amravati University, where I successfully completed my Bachelor of Computer Applications (BCA). Throughout my studies, I developed a deep understanding of computer science fundamentals, data structures, algorithms, and object-oriented programming, which laid a strong foundation for my professional growth.</p> 
+<p>👋✨ I’m <strong>Sayyed Rehan</strong>, a passionate Java Full Stack Developer with expertise across both front-end 🎨 and back-end ⚙️ development. My tech journey started during my academic years at Sant Gadge Baba Amravati University 🎓, where I completed my Bachelor of Computer Applications (BCA). During this phase, I built strong fundamentals in computer science 🧠 — including Data Structures, Algorithms, and Object-Oriented Programming 💻 — forming a solid base for my professional growth 📈.</p>
 
-      <p> I have always been fascinated by how technology can solve real-world problems, and this curiosity has driven me to master the full-stack development cycle — from designing intuitive and responsive user interfaces to building robust, scalable back-end systems. My expertise includes working with Java, Spring Boot, HTML, CSS, JavaScript, and MySQL, among other technologies. </p>
-      <p>In addition to my technical skills, I take pride in being a self-motivated learner who enjoys exploring new frameworks, tools, and technologies to stay up to date with industry trends. I believe in writing clean, efficient, and maintainable code while maintaining a strong focus on performance and user experience.</p>
-      <p>Beyond coding, I enjoy collaborating with teams, brainstorming innovative solutions, and contributing to projects that create a meaningful impact. My goal as a developer is not just to build software, but to create solutions that make life simpler and smarter.</p>
-      <p>I’m excited to continue growing as a professional in the software development field, taking on challenging projects that push my limits and help me refine my craft as a Java Full Stack Developer.</p>
-      </motion.p>
+<p>💡🔥 Technology excites me because it has the power to solve real-world problems 🌍. This curiosity drives me to excel in full-stack development — from creating responsive and intuitive user interfaces 🖥️📱 to building robust and scalable backend systems 🏗️. My technical stack includes Java ☕, Spring Boot 🌱, HTML 🌐, CSS 🎨, JavaScript ⚡, and MySQL 🗄️, along with modern tools and frameworks 🛠️.</p>
+
+<p>📚🚀 I am a self-driven learner who constantly explores new technologies 💻🔍 and stays aligned with industry trends 📊. I believe in writing clean 🧼, efficient ⚡, and maintainable code ✨, while ensuring top-notch performance 🏎️ and smooth user experience 🧑‍💻.</p>
+
+<p>🤝💭 Beyond writing code, I enjoy team collaboration 👥, constructive discussions 💬, and brainstorming creative tech solutions 💡🤔. My focus is not just to build software 💼 — but to create smart, meaningful digital solutions that enhance everyday life 🌐💙.</p>
+
+<p>🚀🎯 I’m excited to take on challenging projects 🧩 that push my limits, sharpen my technical skills 🛠️, and support my continuous growth as a Java Full Stack Developer 👨‍💻. The journey continues — learning, evolving, and building impactful software 🔥.</p>
+     </motion.p>
       <div className="mt-20 flex  flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={index} index={index} {...service} />
